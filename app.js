@@ -11,21 +11,21 @@ let cart = []; // Cart to store selected products
 // Product Data (10 breeds each for Dogs, Cats, and Other Pets)
 const products = {
     dogs: [
-        { name: 'Golden Retriever', price: 300, img: '/images/golden.jpg' },
-        { name: 'Labrador', price: 350, img: '/images/labrador.jpg' },
-        { name: 'Poodle', price: 400, img: '/images/poodle.jpg' },
+        { name: 'Golden Retriever', price: 300, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKDq2mDB0J0ZuYh07KSScwHBIM7VV01BHmoA&s' },
+        { name: 'Labrador', price: 350, img: 'https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2020/09/08092713/Labrador-Retriever-puppies-laying-in-a-bed-of-straw.jpg' },
+        { name: 'Poodle', price: 400, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnrb9AqOvswNKbJtyPlKQgTo2xax83yi1yEw&s' },
         // Add more breeds...
     ],
     cats: [
-        { name: 'Persian', price: 200, img: '/images/persian.jpg' },
-        { name: 'Maine Coon', price: 250, img: '/images/mainecoon.jpg' },
-        { name: 'Bengal', price: 300, img: '/images/bengal.jpg' },
+        { name: 'Persian', price: 200, img: 'https://hankpets.com/wp-content/uploads/2024/06/Everything-You-Need-to-Know-About-Persian-Cats.jpg' },
+        { name: 'Maine Coon', price: 250, img: 'https://i.redd.it/ujrudh86n8sb1.jpg' },
+        { name: 'Bengal', price: 300, img: 'https://scx2.b-cdn.net/gfx/news/hires/2024/how-wild-is-the-bengal.jpg' },
         // Add more breeds...
     ],
     others: [
-        { name: 'Parrot', price: 150, img: '/images/parrot.jpg' },
-        { name: 'Rabbit', price: 100, img: '/images/rabbit.jpg' },
-        { name: 'Hamster', price: 80, img: '/images/hamster.jpg' },
+        { name: 'Parrot', price: 150, img: 'https://images.news18.com/ibnlive/uploads/2024/03/image-2024-03-08t173905.064-2024-03-9ed27601c0395e917b145535340d7c5b.jpg' },
+        { name: 'Rabbit', price: 100, img: 'https://static.vecteezy.com/system/resources/thumbnails/023/595/164/small_2x/rabbit-in-the-forest-at-sunset-animal-in-nature-easter-bunny-wildlife-scene-generative-ai-photo.jpg' },
+        { name: 'Hamster', price: 80, img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAEQTMHbvi1QPnTg48BksLFzq2vTj0RoXeFA&s' },
         // Add more...
     ]
 };
